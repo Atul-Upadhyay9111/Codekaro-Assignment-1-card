@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card1 {
+    width: 600px;
+    height: 500px;
+    padding: 100px 50px;
+    margin: 200px;
+    background: #3bffb1;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.title1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 30px;
+
+}
+
+p {
+    margin-top: 15px;
+}
+
+.btn {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.card2 {
+    width: 550px;
+    height: 400px;
+    padding: 50px 50px;
+    border: 2px solid rgb(150, 141, 141);
+    margin: 200px;
+    border-radius: 10px;
+
+
+
+}
+
+.title2 {
+    font-size: 35px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+
+.description2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: gray;
+}
+
+.icon1 {
+    width: 100px;
+    margin: 30px 60px;
+}
+
+.icon2 {
+    width: 103px;
+    height: 106px;
+    border-radius: 50%;
+    margin: 30px 40px;
+    position: relative;
+}
+
+hr {
+    position: absolute;
+    height: 1px;
+    width: 549px;
+    margin-left: -50px;
+    color: grey;
+}
+
+.see-profile {
+    margin-top: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(76, 91, 230);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card3 {
+    width: 487px;
+    height: 680px;
+    border: 2px solid rgb(150, 141, 141);
+    margin: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.icon3 {
+    width: 100%;
+
+}
+
+.icon3 img {
+    width: 100%;
+
+}
+
+.title3 {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: gray;
+}
+
+h6 {
+    width: 300px;
+    font-weight: 400;
+    color: gray;
+    margin-left: 10px;
+}
+
+.description3 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.subdescription3 {
+    font-size: 20px;
+    margin-left: 32px;
+    color: gray;
+}
+
+.btn2 {
+    font-size: 20px;
+    margin: 22px 29px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid rgb(145, 135, 135);
+    color: rgb(76, 91, 230);
+    border-radius: 10px;
+}
+
+.card4 {
+    justify-content: center;
+    border: 2px solid rgb(150, 141, 141);
+    margin: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title4 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin: 50px 0px 10px 0px;
+    font-size: 80px;
+
+}
+
+.description4 {
+    text-align: center;
+    font-weight: 600;
+
+}
+.xxx{
+    display: flex;
+    justify-content: center;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-top: 10px;
+    border: 1px solid grey;
+    width: 400px;
+    height: 60px;
+    font-size: 17px;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+
+.btn4 {
+    margin: 20px 50px;
+    width: 300px;
+    height: 60px;
+    font-size: 17px;
+    padding: 3px 15px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+
+}
+
+.description5 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sign-up {
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.forgot-p{
+    text-align: center;
+}
+.forgot-pass {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.end-text {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 13px;
+}
+.term, .privacy-policy{
+    color: black;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
